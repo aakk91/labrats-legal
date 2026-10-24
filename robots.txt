@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://aakk91.github.io/labrats-legal/sitemap.xml

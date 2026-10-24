@@ -1,7 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://aakk91.github.io/labrats-legal/</loc><lastmod>2026-10-20</lastmod></url>
-<url><loc>https://aakk91.github.io/labrats-legal/method.html</loc><lastmod>2026-10-20</lastmod></url>
-<url><loc>https://aakk91.github.io/labrats-legal/support.html</loc><lastmod>2026-10-20</lastmod></url>
-<url><loc>https://aakk91.github.io/labrats-legal/privacy-policy.html</loc><lastmod>2026-10-20</lastmod></url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/attention-focus-tests.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/brain-training-app.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/guides.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/memory-test.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/method.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/nootropic-tracker.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/personal-experiment-tracker.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/privacy-policy.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/reaction-time-test.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/supplement-tracker.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://aakk91.github.io/labrats-legal/support.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
 </urlset>
