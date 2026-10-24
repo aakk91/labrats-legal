@@ -1,0 +1,38 @@
+/* LabRats website: shared typography, reading rhythm and equal app frames. */
+@font-face{font-family:General Sans;src:url(general-sans-400.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:General Sans;src:url(general-sans-600.woff2) format('woff2');font-weight:600 800;font-display:swap}
+@font-face{font-family:Instrument Serif;src:url(instrument-serif-400.woff2) format('woff2');font-weight:400;font-display:swap}
+:root{font-family:General Sans,Arial,sans-serif;--muted:#b8bcb6}
+body{font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased}
+h1,h2,h3,p{text-wrap:pretty}
+h1,.guide-intro h1,.prose h1,.guide-hub h1{font-family:Instrument Serif,Georgia,serif;font-weight:400;letter-spacing:-.025em;line-height:1.02}
+h2{font-weight:600;letter-spacing:-.035em}h3{font-weight:600}
+.hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;padding:56px 0 52px;align-items:center}
+.hero h1{font-size:clamp(58px,6.1vw,78px);margin:22px 0 26px;max-width:560px}
+.hero h1 em{display:inline}
+.hero .lead{font-size:19px;line-height:1.65;max-width:475px}
+.hero .actions{gap:22px;margin-top:28px}
+.hero .small{max-width:420px;font-size:12px}
+.button{border-radius:8px;padding:14px 20px;min-height:48px}
+.secondary{font-size:14px}
+.home-screens{max-width:100%;width:100%;margin:0}
+.home-screens>.screen-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+.screen-panel{min-width:0}.screen-label{display:flex;align-items:baseline;gap:10px;font-size:12px;font-weight:600;margin:0 0 12px;color:var(--ink)}.screen-label span{color:var(--muted);font-size:10px;letter-spacing:.08em}
+.screen-panel>a{display:block;border-radius:20px;overflow:hidden;border:1px solid #454a41;background:#000;box-shadow:0 14px 36px #0003}
+.home-screens img{width:100%;height:auto;aspect-ratio:390/844;object-fit:contain;border:0;border-radius:0;margin:0}
+.home-screens figcaption{font-size:11px;margin-top:16px;color:var(--muted)}
+.strip{min-height:0;padding-block:22px;gap:20px;align-items:center}
+.strip a{display:flex;gap:18px;justify-content:space-between;text-decoration:none;font-size:13px}
+.strip a span{color:var(--lime)}
+.section>p:not(.eyebrow){max-width:740px;color:var(--muted)}
+.grid{gap:32px}.grid article{border-top-width:1px;padding-top:25px}.grid h3{margin:18px 0 16px}.grid p{font-size:16px}
+.guide-list>a{transition:color .15s ease}.guide-list>a:hover strong,.hub-list>a:hover h2{color:var(--lime)}
+.guide-list>a>span:last-child{color:var(--lime)}
+.guide-intro{max-width:800px}.guide-intro h1{font-size:clamp(44px,6vw,70px)}
+.guide-intro .lead{line-height:1.7;font-size:20px}.article-body{line-height:1.8}
+.contents a{padding-block:8px}.contents a:hover{color:var(--lime)}
+.app-proof{grid-template-columns:230px minmax(0,1fr);gap:38px;padding-block:32px}.app-proof img{border-color:#454a41;border-radius:18px}.app-proof h2{font-size:28px;line-height:1.15}.app-proof p{line-height:1.75}
+footer a{padding-block:6px}.prose h1{font-size:58px}.support-guides{border-top:1px solid var(--line);margin-top:40px}
+@media(min-width:761px) and (max-width:1050px){.hero{gap:32px}.hero h1{font-size:62px}.hero .lead{font-size:17px}.hero .actions{gap:14px}.home-screens>.screen-pair{gap:12px}}
+@media(max-width:760px){header nav{flex-wrap:wrap;gap:12px;min-height:0;padding-block:16px}.brand{width:100%;font-size:21px}.brand img{width:30px;height:30px}.links{width:100%;max-width:none;justify-content:space-between;gap:8px;font-size:12px}.hero{grid-template-columns:1fr;gap:36px;padding:38px 0 32px}.hero h1{font-size:clamp(54px,10vw,72px);margin:18px 0 22px}.hero .lead{font-size:18px;max-width:500px}.hero .eyebrow{font-size:10px;letter-spacing:.12em}.hero .actions{gap:16px}.hero .small{margin-bottom:0}.home-screens{max-width:480px;margin-inline:auto}.home-screens>.screen-pair{gap:14px}.screen-panel>a{border-radius:14px}.screen-label{font-size:11px;gap:7px;margin-bottom:10px}.home-screens figcaption{font-size:10px;margin-top:12px}.strip{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 22px}.strip a{font-size:12px;gap:8px}.app-proof{grid-template-columns:1fr;gap:24px}.app-proof figure{width:100%;max-width:260px}.app-proof h2{font-size:26px}.guide-intro .lead{font-size:18px}.guide-intro h1{font-size:46px}.prose h1{font-size:46px}.links a{padding-block:5px}.brand{flex-shrink:0}.guide-list strong{font-size:18px}}
+@media(prefers-reduced-motion:reduce){.guide-list>a{transition:none}}
